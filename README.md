@@ -30,6 +30,8 @@ Seuraa näitä vaiheita ladataksesi ja ajaaksesi projektin omalla koneellasi.
 
 ```
 git clone https://github.com/Janikarahikainen/treeniloki-mongodb.git
+```
+```
 cd treeniloki-mongodb
 ```
 
