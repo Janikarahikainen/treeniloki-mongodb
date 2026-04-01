@@ -11,7 +11,7 @@ use treeniloki
 ### Hakee kaikki Matin treenit ja järjestää ne uusimmasta vanhimpaan
 
 ```
-db.treeni.find({
+db.treenit.find({
 kayttaja_id: ObjectId("605c72ef2f753b21c4000001")
 }).sort({ paivamaara: -1 });
 ```
