@@ -1,0 +1,100 @@
+[
+  {
+    "kayttaja_id": { "$oid": "605c72ef2f753b21c4000001" },
+    "paivamaara": "2026-03-20T17:00:00Z",
+    "treenityyppi": "Voimaharjoittelu",
+    "kesto_min": 75,
+    "liikkeet": [
+      {
+        "nimi": "Kyykky",
+        "sarjat": [
+          { "toistot": 10, "paino_kg": 80 },
+          { "toistot": 10, "paino_kg": 85 },
+          { "toistot": 8, "paino_kg": 90 }
+        ]
+      },
+      {
+        "nimi": "Penkkipunnerrus",
+        "sarjat": [
+          { "toistot": 12, "paino_kg": 60 },
+          { "toistot": 10, "paino_kg": 65 }
+        ]
+      }
+    ],
+    "muistiinpanot": "Kyykky tuntui raskaalta, mutta tekniikka pysyi."
+  },
+  {
+    "kayttaja_id": { "$oid": "605c72ef2f753b21c4000001" },
+    "paivamaara": "2026-03-22T09:00:00Z",
+    "treenityyppi": "Cardio",
+    "kesto_min": 40,
+    "liikkeet": [
+      {
+        "nimi": "Juoksumatto",
+        "matka_m": 6500,
+        "keskisyke": 142
+      }
+    ]
+  },
+  {
+    "kayttaja_id": { "$oid": "605c72ef2f753b21c4000001" },
+    "paivamaara": "2026-03-25T18:15:00Z",
+    "treenityyppi": "Voimaharjoittelu",
+    "kesto_min": 50,
+    "liikkeet": [
+      {
+        "nimi": "Maastaveto",
+        "sarjat": [
+          { "toistot": 5, "paino_kg": 100 },
+          { "toistot": 5, "paino_kg": 110 },
+          { "toistot": 5, "paino_kg": 120 }
+        ]
+      }
+    ]
+  },
+  {
+    "kayttaja_id": { "$oid": "605c72ef2f753b21c4000002" },
+    "paivamaara": "2026-03-26T07:30:00Z",
+    "treenityyppi": "Kehonpaino",
+    "kesto_min": 30,
+    "liikkeet": [
+      {
+        "nimi": "Punnerrukset",
+        "sarjat": [{ "toistot": 25 }, { "toistot": 20 }, { "toistot": 15 }]
+      },
+      {
+        "nimi": "Leuanveto",
+        "sarjat": [{ "toistot": 10 }, { "toistot": 8 }]
+      }
+    ],
+    "muistiinpanot": "Nopea aamutreeni ennen töitä."
+  },
+  {
+    "kayttaja_id": { "$oid": "605c72ef2f753b21c4000002" },
+    "paivamaara": "2026-03-29T11:00:00Z",
+    "treenityyppi": "Jooga",
+    "kesto_min": 60,
+    "liikkeet": [
+      {
+        "nimi": "Aurinkotervehdys",
+        "toistot": 10
+      }
+    ],
+    "muistiinpanot": "Palauttava harjoitus."
+  },
+  {
+    "kayttaja_id": { "$oid": "605c72ef2f753b21c4000002" },
+    "paivamaara": "2026-03-31T16:00:00Z",
+    "treenityyppi": "Voimaharjoittelu",
+    "kesto_min": 55,
+    "liikkeet": [
+      {
+        "nimi": "Kyykky",
+        "sarjat": [
+          { "toistot": 12, "paino_kg": 40 },
+          { "toistot": 12, "paino_kg": 45 }
+        ]
+      }
+    ]
+  }
+]

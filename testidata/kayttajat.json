@@ -1,0 +1,14 @@
+[
+  {
+    "_id": { "$oid": "605c72ef2f753b21c4000001" },
+    "nimi": "Matti Meikäläinen",
+    "sahkoposti": "matti@esimerkki.fi",
+    "taso": "Aktiivi"
+  },
+  {
+    "_id": { "$oid": "605c72ef2f753b21c4000002" },
+    "nimi": "Tiina Treenaaja",
+    "sahkoposti": "tiina@treeni.fi",
+    "taso": "Aloittelija"
+  }
+]
