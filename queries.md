@@ -42,7 +42,7 @@ foreignField: "_id",
 as: "kayttaja"
 }
 },
-{ $unwind: "$kayttaja" }, // Purkaa taulukon objektiksi
+{ $unwind: "$kayttaja" }, 
 {
 $project: {
 "kayttaja.nimi": 1,
@@ -60,8 +60,8 @@ kesto_min: 1, _id:0
 
 ```
 db.treenit.insertOne({
-"kayttaja_id": ObjectId("605c72ef2f753b21c4000001"), // Matin ID
-"paivamaara": new Date(), // Tallentaa tämän hetken
+"kayttaja_id": ObjectId("605c72ef2f753b21c4000001"), 
+"paivamaara": new Date(), 
 "treenityyppi": "Yläkroppa",
 "kesto_min": 45,
 "liikkeet": [
@@ -100,6 +100,6 @@ $push: { "liikkeet.$.sarjat": { "toistot": 5, "paino_kg": 100 } }
 ```
 
 db.treenit.deleteOne({
-"\_id": ObjectId("69cd41c80b1e13c770724b6f")
+"\_id": ObjectId("TÄHÄN_TREENIN_ID")
 });
 ```
